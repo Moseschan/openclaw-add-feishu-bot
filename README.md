@@ -44,7 +44,7 @@ Skill 会要求你提供以下信息：
 
 ## 前置条件
 
-- 已安装并配置 [openclaw](https://github.com/nicepkg/openclaw)
+- 已安装并配置 [openclaw](https://openclaw.ai/)
 - 已在[飞书开放平台](https://open.feishu.cn/)创建应用并获取 App ID 和 App Secret
 - openclaw gateway 已通过 launchctl 管理
 
