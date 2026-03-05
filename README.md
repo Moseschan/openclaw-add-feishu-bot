@@ -14,11 +14,13 @@
 
 ## 安装
 
+通过 [skills.sh](https://skills.sh) 一键安装：
+
 ```bash
-claude install-skill /path/to/openclaw-add-feishu-bot
+npx skills add Moseschan/openclaw-add-feishu-bot
 ```
 
-或直接从 GitHub 安装：
+或使用 Claude Code 原生命令：
 
 ```bash
 claude install-skill https://github.com/Moseschan/openclaw-add-feishu-bot
