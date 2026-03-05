@@ -1,6 +1,6 @@
 # openclaw-add-feishu-bot
 
-一个 [Claude Code](https://claude.com/claude-code) Skill，用于自动化向 [openclaw](https://github.com/nicepkg/openclaw) 注册新飞书 Bot 的完整流程。
+一个 [Claude Code](https://claude.com/claude-code) Skill，用于自动化向 [openclaw](https://openclaw.ai/) 注册新飞书 Bot 的完整流程。
 
 ## 功能
 
