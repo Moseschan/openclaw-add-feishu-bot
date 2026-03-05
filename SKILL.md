@@ -14,8 +14,8 @@ Gather these from the user before starting (ask in one message if any are missin
 | Field | Description | Example |
 |-------|-------------|---------|
 | `agentId` | Short unique name for this bot/agent | `dabao` |
-| `appId` | Feishu App ID from the Feishu Open Platform | `cli_a923823d9aba5ced` |
-| `appSecret` | Feishu App Secret | `m7Lx82it3aLB9esksNvXbgKnZ13YA6YZ` |
+| `appId` | Feishu App ID from the Feishu Open Platform | `cli_xxxxxxxxxxxx` |
+| `appSecret` | Feishu App Secret | `your-app-secret-here` |
 | `pairingCode` | (optional) Pairing code if the bot is already added to a group | `LNPQR9W9` |
 
 ## Steps
@@ -25,7 +25,7 @@ Execute all steps in order. Read the config file first so you can do targeted ed
 ### Step 1 — Read current config
 
 ```
-Read /Users/moses/.openclaw/openclaw.json
+Read ~/.openclaw/openclaw.json
 ```
 
 ### Step 2 — Edit `channels.feishu`
@@ -68,7 +68,7 @@ Append to the `agents.list` array:
 ```json
 {
   "id": "<agentId>",
-  "workspace": "/Users/moses/.openclaw/workspace-<agentId>",
+  "workspace": "~/.openclaw/workspace-<agentId>",
   "subagents": {
     "allowAgents": ["*"]
   }
@@ -95,7 +95,7 @@ Add `"<agentId>"` to the `allow` array under `tools.agentToAgent`.
 ### Step 6 — Create workspace directory
 
 ```bash
-mkdir -p /Users/moses/.openclaw/workspace-<agentId>
+mkdir -p ~/.openclaw/workspace-<agentId>
 ```
 
 ### Step 7 — Restart gateway
@@ -121,7 +121,7 @@ openclaw pairing approve feishu <code>
 Confirm:
 - Which account was added (`default` → `<agentId>`)
 - Binding: feishu / `<agentId>` → agent `<agentId>`
-- Workspace: `/Users/moses/.openclaw/workspace-<agentId>`
+- Workspace: `~/.openclaw/workspace-<agentId>`
 - Gateway restarted ✓
 - Pairing: approved or pending
 

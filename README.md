@@ -40,8 +40,8 @@ Skill 会要求你提供以下信息：
 | 参数 | 说明 | 示例 |
 |------|------|------|
 | `agentId` | Bot/Agent 的唯一标识 | `dabao` |
-| `appId` | 飞书开放平台的 App ID | `cli_a923823d9aba5ced` |
-| `appSecret` | 飞书开放平台的 App Secret | `m7Lx82it3aLB9esksNvXbgKnZ13YA6YZ` |
+| `appId` | 飞书开放平台的 App ID | `cli_xxxxxxxxxxxx` |
+| `appSecret` | 飞书开放平台的 App Secret | `your-app-secret-here` |
 | `pairingCode` | （可选）Bot 已加入群组时的配对码 | `LNPQR9W9` |
 
 ## 前置条件
